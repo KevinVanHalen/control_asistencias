@@ -35,3 +35,4 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/registro', [AsistenciaController::class, 'registro'])->name('registro');
 Route::post('/registrar-asistencia', [AsistenciaController::class, 'registrarAsistencia'])->name('registrar-asistencia');
+Route::get('/asistencias', [AsistenciaController::class, 'asistenciasHoy'])->name('asistencias-host');
