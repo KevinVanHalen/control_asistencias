@@ -61,7 +61,7 @@ class EmpleadoSeeder extends Seeder
         DB::table('empleados')->insert([
             'apellido_paterno' => 'Aparicio',
             'apellido_materno' => 'Díaz',
-            'nombre' => 'Ana Masari',
+            'nombre' => 'Masari',
         ]);
         DB::table('empleados')->insert([
             'apellido_paterno' => 'Romero',
